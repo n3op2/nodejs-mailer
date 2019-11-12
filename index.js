@@ -7,12 +7,12 @@ const fs = require('fs');
 // CREATE SMTP TRANSPORT
 // =============================================================================
 const smtpConfig = {
-  host: 'email-smtp.eu-west-1.amazonaws.com',
+  host:
   port: '587',
   secure: false,
   auth: {
-    user: 'AKIAINGM656FAWNSBZZQ',
-    pass: 'AvAOlwu7gponqtqk1j4nAooL3NTCxKD0n3o/eeKBubQg', 
+    user:
+    pass:
   },
 };
 const transporter = nodemailer.createTransport(smtpConfig);
