@@ -131,10 +131,10 @@ let n = 0;
       delay += dIncrement;
       const o = {
         to: c.email,
-        subject: 'Working with Homyze'
+        subject: 'Subject'
       };
       n++;
-      asyncFunction('provider_recruitment_email', o, i);
+      asyncFunction('template_name', o, i);
     } else {
       console.log(`skipping: ${c.email}\nstatus: [${c.sent}].`);
     }
